@@ -27,7 +27,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<code>onload="disableRightClick()"</code>
+
 </head>
 
 <body>
@@ -348,6 +348,9 @@
     <!--  custom script -->
     <script src="js/custom.js"></script>
 
-</body>
+<script type='text/javascript'>
+	document.oncontextmenu = function(){return false}
+</script>
+    </body>
 
 </html>
